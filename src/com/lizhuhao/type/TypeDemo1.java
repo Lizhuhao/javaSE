@@ -7,5 +7,13 @@ public class TypeDemo1 {
         int b=a;
         System.out.println(a);
         System.out.println(b);
+
+        int age = 23;
+        double db = age;
+        System.out.println(db);
+
+        char c = 'a';
+        int code = c;
+        System.out.println(code);
     }
 }
