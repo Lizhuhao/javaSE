@@ -7,7 +7,7 @@ public class RandomDemo2 {
     public static void main(String[] args) {
         //猜数字游戏1-100
         Random r = new Random();
-        int luckNumber = r.nextInt();
+        int luckNumber = r.nextInt(100)+1;
         Scanner sc = new Scanner(System.in);
         while (true){
             System.out.println("请输入你猜测的数字（1-100）：");
